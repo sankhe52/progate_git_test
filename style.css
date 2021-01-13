@@ -21,9 +21,6 @@ header{
 	background-color: #2285D1;
 	height: 117px;
 }
-.header-left{
-	display: flex;
-}
 header img{
 	display: none;
 	width:50px;
@@ -174,6 +171,7 @@ li{
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 50px;
+	flex-wrap: wrap;
 }
 .project{
 	padding: 10px;
@@ -296,50 +294,24 @@ footer h1{
 .freepik a{
 	color: white;
 }
-@media (min-width:1500px) {
-}
-@media (min-width: 1200px) and (max-width: 1501px) {
-	header img{
-		width: 30px;
-		height: 30px;
-		display: block;
+@media (min-width: 1200px) and (max-width: 1860px) {
+	.container{
+		padding:10px 40px;
 	}
-	
-	header li{
+	.header-right li{
+		padding: 5px 10px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1201px){
+	header{
+		background-color: red;
+		flex-direction: column-reverse;
+	}
+	.header-right li{
 		display: none;
 	}
 }
-
-@media (min-width: 992px) and (max-width: 1201px) {
-	header img{
-		width: 30px;
-		height: 30px;
-		display: block;
-	}
-	header li{
-		display: none;
-	}
-	#card1{
-		text-align: center;
-		flex-wrap: wrap-reverse;
-	}
-}
-@media (min-width: 767px) and (max-width: 993px) {
-
-	#card1{
-		text-align: center;
-		flex-wrap: wrap-reverse;
-	}
-	header li{
-		display: none;
-	}
-	header img{
-		width: 30px;
-		height: 30px;
-		display: block;
-	}
-}
-@media (max-width: 465px) {
+@media (max-width: 767px) {
 	header img{
 		width: 30px;
 		height: 30px;
