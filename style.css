@@ -1,0 +1,440 @@
+*{box-sizing: border-box;
+	margin:0;
+	padding: 0;
+	outline: 0;
+	border:0;
+	text-decoration: none;
+	transition: 0.25s;}
+a{
+	text-decoration: none;
+	color: unset;
+}
+body{
+}
+.container{
+	padding: 10px 100px;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	background-color: #2285D1;
+	height: 117px;
+}
+.header-left{
+	display: flex;
+}
+header img{
+
+	width:50px;
+	height:50px;
+	border-radius: 500px;
+	margin-right:20px;
+}
+header p{
+	color: white;
+	font-family: 'Russo One', sans-serif;
+	font-size: 5em;
+}
+header span{
+	letter-spacing: 1px;
+	color: black;
+}
+.header-right{
+	padding-top: 58px;
+}
+li{
+	list-style: none;
+	margin-right: 30px;
+
+}
+.header-right li{
+	float: left;
+	color: white;
+	font-size: 1.5em;
+	background-color: #2285D1;
+	padding: 5px 20px;
+	font-family: monda;
+}
+#about{
+	color: black;
+	border:0;
+	background-color: white;
+}
+.header-right li:hover{
+	cursor: pointer;
+	background-color: #2355D1;
+}
+
+
+.card{
+	margin-bottom: 100px;
+	margin-top: 100px;
+	padding: 20px 70px;
+	border-radius: 5px;
+	
+}
+#card1{
+	display: flex;
+	background-color: rgb(255, 85, 85);
+	border: 1px solid lightgrey;
+}
+.card-right{
+	flex: 1;
+}
+.card-left{
+	flex: 1;
+	text-align: right;
+}
+
+#card1 h1{
+	font-size: 50px;
+	font-weight: lighter;
+	color: white;
+	font-family: montserrat;
+	margin-bottom: 40px;
+}
+#card1 p, #card3 p{
+	font-size: 1.5em;
+	font-family: 'Prompt', sans-serif;
+	font-weight: bold;
+	margin-bottom: 90px;
+}
+#card1 button{
+	font-family: 'montserrat', sans-serif;
+	padding: 20px 100px;
+	font-size: 2em;
+	background-color: #2285D1;
+	color: white;
+	border-radius: 4px;
+	margin-bottom: 40px;
+	position: relative;
+	box-shadow: 0 7px black;
+}
+#card1 button:hover{
+	background-color:  rgb(255, 121, 85);
+}
+#card1 button:active{
+	box-shadow: none;
+	background-color:  rgb(100, 121, 85);
+	top: 7px;
+	
+}
+
+#card1 img{
+	margin: auto;
+	width: 600px;
+	height: 600px;
+}
+#card2{
+	background-color: rgb(45, 185, 96);
+	text-align: center;
+}
+#card2 h1{
+	font-size: 50px;
+	font-weight: lighter;
+		color: white;
+		font-family: montserrat;
+		margin-bottom: 100px;
+}
+.images{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid white;
+}
+.image{ 
+	width: 350px;
+	height: 200px;
+	margin: auto;
+}
+#image1{
+	background-image: url(htmlcss.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#image2{
+	width: 200px;
+	background-image: url(js.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#image3{
+	background-image: url(ux-ui-logo.svg);
+	background-repeat: no-repeat;
+	background-size: contain;	
+}
+#image4{
+	width: 200px;
+	background-image: url(iot-removebg-preview.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.projects{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+.project{
+	padding: 10px;
+}
+.project img{
+	width: 350px;
+	height: 200px
+}
+.project p{
+	font-family: monda;
+	margin: 10px;
+	font-size: 1.2em;
+}
+.project:hover{
+	cursor: pointer;
+	background-color: rgb(255, 255, 255, 0.8);
+}
+.card-bottom button{
+	font-family: 'montserrat', sans-serif;
+	padding: 20px 100px;
+	font-size: 2em;
+	background-color: rgb(255, 85, 85);
+	color: white;
+	margin-bottom: 40px;
+	border-radius: 400px;
+}
+.card-bottom button img{
+	margin-left: 15px;
+	color: white;
+	width: 32px;
+	height: 32px;
+}
+.card-bottom button:hover{
+	background-color: darkred;
+	cursor: pointer;
+}
+#card3{
+	display: flex;
+	background-color:  #2285D1;
+}
+#card3 img{
+	border-radius: 500px;
+	margin: 90px auto;
+	mix-blend-mode: hard-light;
+	box-shadow: 10px 10px 40px rgb(10, 10, 255, 0.35);
+}
+#card3 h1{
+	font-size: 50px;
+	font-weight: lighter;
+		color: white;
+		font-family: montserrat;
+		margin-bottom: 40px;
+}
+.newsletter{
+	border-radius: 5px;
+	width: 40%;
+	background-color: grey;
+	text-align: center;
+	padding: 20px 40px;
+	margin: 50px auto;
+}
+.newsletter h1{
+	font-size: 2em;
+	font-weight: bolder;
+		color: white;
+		font-family: montserrat;
+		margin-bottom: 50px;
+}
+.newsletter input{
+	padding: 20px;
+	font-size: 1.2em;
+	font-family: 'roboto' sans-serif;
+
+}
+.newsletter input[type=email] {
+	width: 70%;
+	border-radius: 4px 0 0 4px;
+}
+.newsletter input[type=submit] {
+	background-color:  #2285D1;
+	color: white;
+	border-radius: 0 4px 4px 0;
+}
+.newsletter input[type=submit]:hover{
+	background-color: #2355D1;
+}
+footer{
+	background-color: #2a2f32;
+	padding: 20px 70px;
+}
+footer h1{
+	color: white;
+	font-size: 2em;
+	font-family: montserrat;
+	font-weight: lighter;	
+	text-align: center;
+	padding-bottom: 15px; 
+	margin: 10px 700px 25px 700px;
+	border-bottom: 1px solid white;
+}
+.socials{
+	display: flex;
+	justify-content: center;
+}
+.social{
+	padding: 20px 70px;
+}
+.social:hover{
+	cursor: pointer;
+	background-color: rgb(255, 255, 255, 0.2);
+}
+.social img{
+	width: 50px;
+	height: 50px;
+
+}
+.freepik{
+	color: white;
+}
+.freepik a{
+	color: white;
+}
+@media (min-width:1500px) {
+ 	
+}
+@media (min-width: 1200px) and (max-width: 1501px) {
+	
+}
+
+@media (min-width: 992px) and (max-width: 1201px) {
+	
+}
+@media (min-width: 767px) and (max-width: 993px) {
+	
+}
+@media (max-width: 465px) {
+	.container{
+		padding: 10px;
+	}
+	header{
+		height: unset;
+	}
+	header p{
+		font-size: 2em;
+	}
+	header li{
+		display: none;
+	}
+	.card{
+	margin:20px auto;
+	padding:10px;
+	}
+	#card1{
+		text-align: center;
+		flex-wrap: wrap-reverse;
+	}
+	#card1 h1{
+		font-size: 2em;
+		margin-bottom: 20px;
+	}
+	#card1 p{
+		font-size: 1em;
+		margin-bottom: 25px;
+	}
+	#card1 .card-left{
+		text-align: center;
+	}
+	#card1 .card-left img{
+		width: 200px;
+		height: 200px;
+	}
+	#card1 button{
+		padding: 10px 30px;
+		font-size: 1em;
+	}
+	#card2 h1{
+		font-size: 2em;
+		margin-bottom: 20px;
+	}
+	.images{
+		padding-bottom: 0;
+	}
+	.image{
+		height: 80px;
+		margin: auto 10px;
+		padding: 0;	}
+	#image2{
+		background-size: contain;
+	}
+	.projects{
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
+	.projects img{
+		width: 300px;
+		height: 150px;
+	}
+	#card2 button{
+		padding:15px 20px;
+		font-size: 1em;
+	}
+	#card2 button img{
+		width: 16px;
+		height: 16px;
+	}
+	#card3{
+		flex-wrap: wrap;
+		text-align: center;
+	}
+	#card3 img{
+
+		width: 200px;
+		height: 200px;
+		margin: 20px;
+	}
+	#card3 h1{
+		text-align: center;
+		font-size: 2em;
+	}
+	#card3 p{
+		font-size: 1em;
+		text-align: center;
+	}
+	.newsletter{
+		width: 100%;
+	}
+	.newsletter h1{
+		font-size: 1.5em;
+	}
+	.newsletter input{
+		font-size: 1em;
+		padding: 10px;
+		width: 100%;
+	}
+	.newsletter input[type=email] {
+		padding: 10px;
+		width: 100%;
+	}
+	.newsletter input[type=submit]{
+		padding:15px;
+		width: 50%;
+		margin: 20px auto;
+	}
+	footer{
+		padding: 10px 20px;
+	}
+	footer h1{
+		margin: 0;
+		font-size: 1.2em;
+		padding-bottom:  10px;
+	}
+	.socials{
+
+	}
+	.social{
+		padding:10px;
+	}
+	.social img{
+	width: 50px;
+	height: 50px;
+
+}
+}
