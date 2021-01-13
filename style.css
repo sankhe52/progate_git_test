@@ -333,6 +333,11 @@ footer h1{
 	header li{
 		display: none;
 	}
+	header img{
+		width: 30px;
+		height: 30px;
+		display: block;
+	}
 }
 @media (max-width: 465px) {
 	header img{
