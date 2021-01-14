@@ -226,6 +226,8 @@ li{
 		margin-bottom: 40px;
 }
 #card3 a{
+	text-decoration: underline;
+	color:white;
 	display:block;
 	margin-top:20px;
 }
